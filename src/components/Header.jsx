@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const user = true;
   return (
-    <div className="shadow-lg shadow-cyan-500/50 py-5 bg-gray-900">
+    <div className="shadow-lg shadow-cyan-500/50 py-5 bg-gray-900 fixed top-0 w-full">
       <Container>
         <nav className="relative text-white flex justify-between items-center ">
 

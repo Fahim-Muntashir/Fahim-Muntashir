@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,5 +15,18 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    plugin(function({ addUtilities }) {
+      addUtilities({
+        '.content-auto': {
+          'content-visibility': 'auto',
+        },
+        '.content-hidden': {
+          'content-visibility': 'hidden',
+        },
+        '.content-visible': {
+          'content-visibility': 'visible',
+        },
+      })
+    })
+  ]}

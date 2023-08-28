@@ -1,9 +1,11 @@
-import React from 'react';
+import Contact from './Contact';
+import Home from './Home';
 
 const page = () => {
     return (
         <div>
-            f
+            <Home></Home>
+            <Contact></Contact>
         </div>
     );
 };
