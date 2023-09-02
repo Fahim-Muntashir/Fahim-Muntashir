@@ -55,7 +55,7 @@ const About = () => {
                     </div>
                 </div>
                 <div aria-hidden="true" className="mt-10 lg:mt-0">
-                    <img src="https://i.ibb.co/5kdd88H/Dark-Green-Modern-Photo-centric-Student-Part-time-Volunteer-Resume-Mobile-First-Presentation-2.jpg" alt="" className="mx-auto rounded-lg shadow-lg w-80 dark:bg-gray-500" />
+                    <img src="https://i.ibb.co/TtDCMwf/Dark-Green-Modern-Photo-centric-Student-Part-time-Volunteer-Resume-Mobile-First-Presentation-4.jpg" alt="" className="mx-auto rounded-lg shadow-lg w-80 dark:bg-gray-500" />
                 </div>
             </div>
             <div>
