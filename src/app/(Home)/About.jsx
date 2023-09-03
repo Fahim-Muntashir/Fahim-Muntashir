@@ -11,7 +11,7 @@ const About = () => {
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                 <div>
                     <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Html to FullStack Webdeveloper</h3>
-                    <p className="mt-3 text-lg dark:text-gray-400">The Journey was startted when I am in class 8 the covid time in 2020.I Say a tutorial video on a tv channel html teach by Jhankar Mahbub .Then I am Curious this webdevelopment and start the journey</p>
+                    <p className="mt-3 text-lg dark:text-gray-400">My journey into web development began during the COVID-19 pandemic in 2020 when I was in the 8th grade. It all started when I stumbled upon a tutorial video on a TV channel, where Jhankar Mahbub was teaching HTML. Intrigued by the world of web development, I decided to embark on this exciting journey.</p>
                     <div className="mt-12 space-y-12">
                         <div className="flex">
                             <div className="flex-shrink-0">
@@ -22,8 +22,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="ml-4">
-                                <h4 className="text-lg font-medium leadi dark:text-gray-50">Per ei quaeque sensibus</h4>
-                                <p className="mt-2 dark:text-gray-400">Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.</p>
+                                <h4 className="text-lg font-medium leadi dark:text-gray-50">Journey 2020 - 2021 After this</h4>
+                                <p className="mt-2 dark:text-gray-400">After watching Jhankar Mahbubs video, he recommended starting my learning journey with W3Schools. I heeded his advice and began my exploration by diving into HTML and CSS on the platform. There were moments when I felt a bit overwhelmed and apprehensive, but I didnt let that deter me. To reinforce my understanding, I turned to coding tutorials on YouTube, which helped me grasp concepts in HTML, CSS, JavaScript, some PHP, and Bootstrap. This multi-pronged approach to learning has been invaluable in building my web development skills.</p>
                             </div>
                         </div>
                         <div className="flex">
@@ -35,8 +35,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="ml-4">
-                                <h4 className="text-lg font-medium leadi dark:text-gray-50">Cu imperdiet posidonium sed</h4>
-                                <p className="mt-2 dark:text-gray-400">Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.</p>
+                                <h4 className="text-lg font-medium leadi dark:text-gray-50">After That whats happen</h4>
+                                <p className="mt-2 dark:text-gray-400">This year, I embarked on a journey by enrolling in a course at Programming Hero, where I delved into the world of MERN Stack development. In the initial days of this course, I encountered some challenging moments, and there were days filled with frustration as I grappled with coding. However, its all part of the learning process, and I continued to persevere.</p>
                             </div>
                         </div>
                         <div className="flex">
@@ -48,8 +48,11 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="ml-4">
-                                <h4 className="text-lg font-medium leadi dark:text-gray-50">Nulla omittam sadipscing mel ne</h4>
-                                <p className="mt-2 dark:text-gray-400">At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.</p>
+                                <h4 className="text-lg font-medium leadi dark:text-gray-50">The Main Journey Start</h4>
+                                <p className="mt-2 dark:text-gray-400">
+                                        After taking Programming Hero  course and dedicating several months to hard work, I diligently honed my skills. Through countless hours on YouTube and online platforms, I crafted various MERN (MongoDB, Express.js, React, Node.js) projects. As a result, I have not only boosted my confidence but also solidified my belief that I am now a proficient programmer. I feel confident in my abilities and believe that I am  well-prepared for a job in this field.
+                                <a className='text-blue-500'>  Read More...</a>
+                                        </p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +61,7 @@ const About = () => {
                     <img src="https://i.ibb.co/TtDCMwf/Dark-Green-Modern-Photo-centric-Student-Part-time-Volunteer-Resume-Mobile-First-Presentation-4.jpg" alt="" className="mx-auto rounded-lg shadow-lg w-80 dark:bg-gray-500" />
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                     <div className="lg:col-start-2">
                         <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Eam nibh gloriatur ex</h3>
@@ -109,7 +112,7 @@ const About = () => {
                         <img src="https://source.unsplash.com/random/361x481" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
     );
