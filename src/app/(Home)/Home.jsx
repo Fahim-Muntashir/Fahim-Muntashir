@@ -61,25 +61,28 @@ const Hero = () => {
               viewport={{ once: false, amount: 0.8 }}
               className="flex gap-x-3 justify-center xl:justify-start xl:gap-x-6"
             >
-              <a href="https://www.facebook.com/staywithmoon" target="_blank">
+              <a
+                href="https://www.facebook.com/FahimMuntashirBD/"
+                target="_blank"
+              >
                 <BsFacebook className="social-icon text-3xl text-blue-600 hover:text-blue-800" />
               </a>
               <a
-                href="https://www.instagram.com/mahmudul_hasan_moon/"
+                href="https://www.instagram.com/fahim.muntashir1/"
                 target="_blank"
               >
                 {" "}
                 <BsInstagram className="social-icon text-3xl text-purple-600 hover:text-purple-800" />
               </a>
               <a
-                href="https://au.linkedin.com/in/mahmudul-hasan-moon"
+                href="https://au.linkedin.com/in/fahim-muntashir"
                 target="_blank"
               >
                 {" "}
                 <BsLinkedin className="social-icon text-3xl text-indigo-600 hover:text-indigo-800" />
               </a>
               <a
-                href="https://www.youtube.com/@MahmudulHasanMoon"
+                href="https://www.youtube.com/channel/UCyoBlQNPSHaQYNW4n6zkINQ"
                 target="_blank"
               >
                 {" "}

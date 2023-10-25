@@ -1,74 +1,140 @@
-import React from 'react';
+import React from "react";
 
 const Projects = () => {
-    return (
-        <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
-        <div className="container p-6 mx-auto space-y-8">
-            <div className="space-y-2 text-center">
-                <h2 className="text-3xl font-bold">Some Of My Favourite Project</h2>
-                <p className="font-serif text-sm dark:text-gray-400">I think this Awesome Project are build my Skill Harder</p>
-            </div>
-            <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-                <article className="flex flex-col dark:bg-gray-900">
-                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                        <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?1" />
-                    </a>
-                    <div className="flex flex-col flex-1 p-6">
-                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                        <a rel="noopener noreferrer" href="#" className="text-xs tracki uppercase hover:underline dark:text-violet-400">Convenire</a>
-                        <h3 className="flex-1 py-2 text-lg font-semibold leadi">Te nulla oportere reprimique his dolorum</h3>
-                        <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
-                            <span>June 1, 2020</span>
-                            <span>2.1K views</span>
-                        </div>
-                    </div>
-                </article>
-                <article className="flex flex-col dark:bg-gray-900">
-                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                        <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?2" />
-                    </a>
-                    <div className="flex flex-col flex-1 p-6">
-                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                        <a rel="noopener noreferrer" href="#" className="text-xs tracki uppercase hover:underline dark:text-violet-400">Convenire</a>
-                        <h3 className="flex-1 py-2 text-lg font-semibold leadi">Te nulla oportere reprimique his dolorum</h3>
-                        <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
-                            <span>June 2, 2020</span>
-                            <span>2.2K views</span>
-                        </div>
-                    </div>
-                </article>
-                <article className="flex flex-col dark:bg-gray-900">
-                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                        <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?3" />
-                    </a>
-                    <div className="flex flex-col flex-1 p-6">
-                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                        <a rel="noopener noreferrer" href="#" className="text-xs tracki uppercase hover:underline dark:text-violet-400">Convenire</a>
-                        <h3 className="flex-1 py-2 text-lg font-semibold leadi">Te nulla oportere reprimique his dolorum</h3>
-                        <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
-                            <span>June 3, 2020</span>
-                            <span>2.3K views</span>
-                        </div>
-                    </div>
-                </article>
-                <article className="flex flex-col dark:bg-gray-900">
-                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                        <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?4" />
-                    </a>
-                    <div className="flex flex-col flex-1 p-6">
-                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                        <a rel="noopener noreferrer" href="#" className="text-xs tracki uppercase hover:underline dark:text-violet-400">Convenire</a>
-                        <h3 className="flex-1 py-2 text-lg font-semibold leadi">Te nulla oportere reprimique his dolorum</h3>
-                        <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
-                            <span>June 4, 2020</span>
-                            <span>2.4K views</span>
-                        </div>
-                    </div>
-                </article>
-            </div>
+  return (
+    <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
+      <div className="container p-6 mx-auto space-y-8">
+        <div className="space-y-2 text-center">
+          <h2 className="text-3xl font-bold">Some Of My Favourite Project</h2>
+          <p className="font-serif text-sm dark:text-gray-400">
+            I think this Awesome Project are build my Skill Harder
+          </p>
         </div>
+        <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+          <article className="flex flex-col dark:bg-gray-900">
+            <a href="#" className="group relative block bg-black">
+              <img
+                alt="Developer"
+                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="relative p-4 sm:p-6 lg:p-8">
+                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                  Developer
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-2xl">
+                  Tony Wayne
+                </p>
+
+                <div className="mt-32 sm:mt-48 lg:mt-64">
+                  <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p className="text-sm text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Omnis perferendis hic asperiores quibusdam quidem
+                      voluptates doloremque reiciendis nostrum harum.
+                      Repudiandae?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article className="flex flex-col dark:bg-gray-900">
+            <a href="#" className="group relative block bg-black">
+              <img
+                alt="Developer"
+                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="relative p-4 sm:p-6 lg:p-8">
+                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                  Developer
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-2xl">
+                  Tony Wayne
+                </p>
+
+                <div className="mt-32 sm:mt-48 lg:mt-64">
+                  <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p className="text-sm text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Omnis perferendis hic asperiores quibusdam quidem
+                      voluptates doloremque reiciendis nostrum harum.
+                      Repudiandae?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article className="flex flex-col dark:bg-gray-900">
+            <a href="#" className="group relative block bg-black">
+              <img
+                alt="Developer"
+                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="relative p-4 sm:p-6 lg:p-8">
+                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                  Developer
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-2xl">
+                  Tony Wayne
+                </p>
+
+                <div className="mt-32 sm:mt-48 lg:mt-64">
+                  <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p className="text-sm text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Omnis perferendis hic asperiores quibusdam quidem
+                      voluptates doloremque reiciendis nostrum harum.
+                      Repudiandae?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article className="flex flex-col dark:bg-gray-900">
+            <a href="#" className="group relative block bg-black">
+              <img
+                alt="Developer"
+                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div className="relative p-4 sm:p-6 lg:p-8">
+                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                  Developer
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-2xl">
+                  Tony Wayne
+                </p>
+
+                <div className="mt-32 sm:mt-48 lg:mt-64">
+                  <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p className="text-sm text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Omnis perferendis hic asperiores quibusdam quidem
+                      voluptates doloremque reiciendis nostrum harum.
+                      Repudiandae?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
     </section>
-    );
+  );
 };
 
 export default Projects;
