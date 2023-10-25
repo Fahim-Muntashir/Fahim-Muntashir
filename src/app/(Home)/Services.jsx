@@ -7,13 +7,14 @@ const Services = () => {
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="text-3xl font-bold sm:text-4xl">
-              Kickstart your marketing
+              Grow Your Business With Us
             </h2>
 
             <p class="mt-4 text-gray-300">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              We offer a comprehensive range of services to support and
+              accelerate the growth of businesses. From digital marketing to
+              strategic consulting, our solutions are tailored to drive your
+              success.
             </p>
           </div>
 
@@ -40,13 +41,15 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Digital Marketing{" "}
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our digital marketing services encompass search engine
+                optimization (SEO), pay-per-click (PPC) advertising, social
+                media marketing, and content marketing. These strategies boost
+                your online presence, driving organic traffic and increasing
+                conversions.
               </p>
             </a>
 
@@ -72,13 +75,14 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Web Development{" "}
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                A well-structured and responsive website is crucial for business
+                growth. Our web development services ensure your online presence
+                is visually appealing, user-friendly, and optimized for search
+                engines.
               </p>
             </a>
 
@@ -104,13 +108,14 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Content Creation
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                High-quality, relevant content is the cornerstone of effective
+                digital marketing. We produce engaging content, including blog
+                posts, articles, videos, and more, to attract and retain your
+                target audience.
               </p>
             </a>
 
@@ -136,13 +141,14 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Social Media Management{" "}
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Leveraging the power of social media, we manage and grow your
+                online presence across platforms. We create and curate content,
+                engage with your audience, and build a strong social media
+                community to enhance brand visibility.
               </p>
             </a>
 
@@ -168,13 +174,14 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Advertising Campaigns{" "}
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our team manages strategic advertising campaigns, utilizing
+                various channels such as Google Ads, Facebook Ads, and more, to
+                reach your target audience and maximize your return on
+                investment.
               </p>
             </a>
 
@@ -200,13 +207,15 @@ const Services = () => {
               </svg>
 
               <h2 class="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Strategic Consulting
               </h2>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our team of experts provides tailored consulting services to
+                help businesses formulate effective growth strategies. We
+                conduct in-depth market analysis, assess competitors, and create
+                actionable plans to ensure your business is on the path to
+                success.
               </p>
             </a>
           </div>
