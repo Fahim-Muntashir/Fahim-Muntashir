@@ -48,9 +48,10 @@ const Hero = () => {
               viewport={{ once: false, amount: 0.6 }}
               className="description max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10"
             >
-              Life's brevity serves as a powerful reminder: cherish every moment
-              with a positive outlook, for each fleeting second holds the
-              potential to infuse our lives with joy and meaning.
+              A positive mindset, believing in ease, and self-confidence are
+              keys to achieving success. Challenges become opportunities, and
+              with clear goals and affirmations, you bolster productivity and
+              attract positive outcomes. Success follows naturally.
             </motion.p>
 
             {/* btns */}
