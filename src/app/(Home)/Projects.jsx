@@ -20,7 +20,7 @@ const Projects = () => {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p className="text-sm font-medium uppercase tracking-widest text-blue-500">
                   Full Stack Website
                 </p>
 
@@ -50,7 +50,7 @@ const Projects = () => {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p className="text-sm font-medium uppercase tracking-widest text-blue-500">
                   Developer
                 </p>
 
@@ -80,7 +80,7 @@ const Projects = () => {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p className="text-sm font-medium uppercase tracking-widest text-blue-500">
                   Developer
                 </p>
 
@@ -110,7 +110,7 @@ const Projects = () => {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p className="text-sm font-medium uppercase tracking-widest text-blue-500">
                   Developer
                 </p>
 
