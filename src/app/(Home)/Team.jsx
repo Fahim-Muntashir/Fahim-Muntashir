@@ -24,11 +24,11 @@ const Team = () => {
               />
 
               <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
-                arthur melo
+                Habiba Sultana
               </h1>
 
               <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                design director
+                Project Manegar
               </p>
 
               <div class="flex mt-3 -mx-2">
@@ -142,25 +142,25 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group bg-blue-600 dark:border-gray-700 dark:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 alt=""
               />
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white text-white">
                 Olivia Wathan
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p class="mt-2 text-gray-100 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Lead designer
               </p>
 
               <div class="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 text-white"
                   aria-label="Reddit"
                 >
                   <svg
@@ -175,7 +175,7 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 text-white"
                   aria-label="Facebook"
                 >
                   <svg
@@ -190,7 +190,7 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 text-white"
                   aria-label="Github"
                 >
                   <svg
@@ -208,16 +208,16 @@ const Team = () => {
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                src="https://i.ibb.co/Rjrfrn5/7d61a473-6bbe-47c5-942a-853bff4111ba.png"
                 alt=""
               />
 
               <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
-                John Doe
+                Fahim Muntashir
               </h1>
 
               <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Full stack developer
+                Team Leader & Full stack developer
               </p>
 
               <div class="flex mt-3 -mx-2">
