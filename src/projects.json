@@ -1,0 +1,38 @@
+{
+    "projects": [
+     
+      {
+        "Name": "Toy Corner",
+        "Live Link": "https://toyconer.netlify.app/",
+        "Code Link": "https://github.com/FahimMuntashir1/Car-Website-Practice",
+        "Description": "This toy corner project delivered a visually eye-catching eCommerce website. Featuring user-friendly color navigation, secure authentication is done with Firebase. The engaging home page has 10-12 sections, and all product and product management are handled using the MERN stack. React framer-motion is also used here, and a 404 page is added for error handling.",
+        "Technology": "Front-End Design, Mockups, Debugging Code, Strategic Thinking, Debugging, Front-end Engineering, Clean Coding, Databases, Programming Languages, Client Requirements, HTML, Responsive Web Design, Problem Solving, Web Pages, Computer Science, Web Applications, Back-End Web Development, Web Application Development, Server Side JavaScript, Server Side Programming, JavaScript Frameworks, Full-Stack Development, Web Development, MongoDB, Express.js, Node.js, React.js, Tailwind CSS",
+        "Photo": "https://i.ibb.co/bvKnFqt/screencapture-localhost-3000-2023-10-30-14-05-33-4.png"
+      },
+      { 
+     "Name": "Car Kabd Corner",
+      "Live Link": "https://toyconer.netlify.app/",
+      "Code Link": "https://github.com/FahimMuntashir1/Car-Website-Practice",
+      "Description": "This toy corner project delivered a visually eye-catching eCommerce website. Featuring user-friendly color navigation, secure authentication is done with Firebase. The engaging home page has 10-12 sections, and all product and product management are handled using the MERN stack. React framer-motion is also used here, and a 404 page is added for error handling.",
+      "Technology": "Front-End Design, Mockups, Debugging Code, Strategic Thinking, Debugging, Front-end Engineering, Clean Coding, Databases, Programming Languages, Client Requirements, HTML, Responsive Web Design, Problem Solving, Web Pages, Computer Science, Web Applications, Back-End Web Development, Web Application Development, Server Side JavaScript, Server Side Programming, JavaScript Frameworks, Full-Stack Development, Web Development, MongoDB, Express.js, Node.js, React.js, Tailwind CSS",
+      "Photo": "https://i.ibb.co/bvKnFqt/screencapture-localhost-3000-2023-10-30-14-05-33-4.png"
+      },
+      { 
+     "Name": "Car Kabd Corner",
+      "Live Link": "https://toyconer.netlify.app/",
+      "Code Link": "https://github.com/FahimMuntashir1/Car-Website-Practice",
+      "Description": "This toy corner project delivered a visually eye-catching eCommerce website. Featuring user-friendly color navigation, secure authentication is done with Firebase. The engaging home page has 10-12 sections, and all product and product management are handled using the MERN stack. React framer-motion is also used here, and a 404 page is added for error handling.",
+      "Technology": "Front-End Design, Mockups, Debugging Code, Strategic Thinking, Debugging, Front-end Engineering, Clean Coding, Databases, Programming Languages, Client Requirements, HTML, Responsive Web Design, Problem Solving, Web Pages, Computer Science, Web Applications, Back-End Web Development, Web Application Development, Server Side JavaScript, Server Side Programming, JavaScript Frameworks, Full-Stack Development, Web Development, MongoDB, Express.js, Node.js, React.js, Tailwind CSS",
+      "Photo": "https://i.ibb.co/bvKnFqt/screencapture-localhost-3000-2023-10-30-14-05-33-4.png"
+      },
+      { 
+     "Name": "Car Kabd Corner",
+      "Live Link": "https://toyconer.netlify.app/",
+      "Code Link": "https://github.com/FahimMuntashir1/Car-Website-Practice",
+      "Description": "This toy corner project delivered a visually eye-catching eCommerce website. Featuring user-friendly color navigation, secure authentication is done with Firebase. The engaging home page has 10-12 sections, and all product and product management are handled using the MERN stack. React framer-motion is also used here, and a 404 page is added for error handling.",
+      "Technology": "Front-End Design, Mockups, Debugging Code, Strategic Thinking, Debugging, Front-end Engineering, Clean Coding, Databases, Programming Languages, Client Requirements, HTML, Responsive Web Design, Problem Solving, Web Pages, Computer Science, Web Applications, Back-End Web Development, Web Application Development, Server Side JavaScript, Server Side Programming, JavaScript Frameworks, Full-Stack Development, Web Development, MongoDB, Express.js, Node.js, React.js, Tailwind CSS",
+      "Photo": "https://i.ibb.co/bvKnFqt/screencapture-localhost-3000-2023-10-30-14-05-33-4.png"
+      }
+    ]
+  }
+  

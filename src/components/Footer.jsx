@@ -5,9 +5,12 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-2">
-          <div className="text-green-400 dark:text-teal-300">
-    <h1 className="text-4xl font-sans font-bold ">Fahim</h1>
-                  </div>
+          <div className="text-white dark:text-teal-300">
+            <h1 className="text-4xl xl:mx-7 sm:mx-0 font-sans font-bold ">
+              F <br /> a <br /> h <br />{" "}
+              <span className="text-4xl text-blue-700"> i</span> <br /> m
+            </h1>
+          </div>
 
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             <div className="col-span-2">
@@ -23,8 +26,8 @@ const Footer = () => {
                   find yourself surrounded by like-minded individuals{" "}
                 </p>
                 <br />
-                <p>Frame Maker</p>
-                <p>Rangpur,Bangladesh</p>
+                <p>Fahim Muntashir</p>
+                <p>Fullstack Webdeveloper & Founder and Ceo Massive Growth</p>
                 <p></p>
               </div>
             </div>

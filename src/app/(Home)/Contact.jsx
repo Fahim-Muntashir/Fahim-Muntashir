@@ -1,4 +1,43 @@
+"use client";
+
+import { useState } from "react";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        console.log("Email sent successfully");
+        // You can add code to show a success message or reset the form here
+      } else {
+        console.error("Error sending email");
+        // Handle the error, e.g., show an error message to the user
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      // Handle the error, e.g., show an error message to the user
+    }
+  };
   return (
     <section
       id="contact"
@@ -38,7 +77,7 @@ const Contact = () => {
                 </svg>
 
                 <span class="mx-2 text-white truncate w-72">
-                  Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+                  Gangachara,Rangpur in Bangladesh
                 </span>
               </p>
 
@@ -59,7 +98,7 @@ const Contact = () => {
                 </svg>
 
                 <span class="mx-2 text-white truncate w-72">
-                  (257) 563-7401
+                  (+880) 1987-7444-337
                 </span>
               </p>
 
@@ -80,7 +119,7 @@ const Contact = () => {
                 </svg>
 
                 <span class="mx-2 text-white truncate w-72">
-                  acb@example.com
+                  fahimmuntashir07@gmail.com
                 </span>
               </p>
             </div>
@@ -171,12 +210,13 @@ const Contact = () => {
                 Contact form
               </h1>
 
-              <form class="mt-4">
+              <form onSubmit={handleSubmit} class="mt-4">
                 <div class="flex-1">
                   <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                     Full Name
                   </label>
                   <input
+                    onChange={handleChange}
                     type="text"
                     placeholder="John Doe"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -189,6 +229,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
+                    onChange={handleChange}
                     placeholder="johndoe@example.com"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                   />
@@ -199,12 +240,16 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
+                    onChange={handleChange}
                     class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                     placeholder="Message"
                   ></textarea>
                 </div>
 
-                <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                <button
+                  type="submit"
+                  class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                >
                   get in touch
                 </button>
               </form>
