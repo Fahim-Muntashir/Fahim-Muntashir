@@ -13,44 +13,95 @@ const Faq = () => {
         <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Optio maiores eligendi molestiae totam dolores similique?
+              How can I place an order?
             </summary>
             <div className="px-4 pb-4">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                neque in fugiat magni, quas animi enim veritatis deleniti ex.
-                Impedit.
+                To place an order, you can reach out to us through the contact
+                section. Simply email us, and we will promptly respond.
+                Alternatively, you can find my social media links on the first
+                page and contact me through those platforms. We look forward to
+                assisting you with your order!
               </p>
             </div>
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Modi dolorem veritatis culpa quos consequuntur beatae itaque
-              excepturi perspiciatis?
+              What technologies do you specialize in?
             </summary>
             <div className="px-4 pb-4">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                aspernatur quae, eos explicabo odit minima libero veniam
-                similique quibusdam doloribus facilis ipsa accusantium vel
-                maiores corrupti! Libero voluptate a doloribus?
+                We specialize in a comprehensive range of cutting-edge
+                technologies to deliver top-notch web development solutions. Our
+                expertise includes HTML, CSS, JavaScript, Node.js, Express.js,
+                MongoDB, Next.js, Tailwind CSS, Figma, Framer Motion, Bootstrap,
+                JavaScript, TypeScript, React, and Redux. Our versatile tech
+                stack is meticulously curated to address the unique requirements
+                of each project, ensuring a robust and tailored solution.{" "}
               </p>
             </div>
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Magni reprehenderit possimus debitis?
+              Do you provide ongoing website maintenance?{" "}
             </summary>
             <div className="px-4 pb-4 space-y-2">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                voluptates aspernatur dolores in consequatur doloremque
-                inventore reprehenderit, consequuntur perspiciatis architecto.
+                Absolutely. We offer ongoing maintenance services to ensure your
+                website stays up-to-date with the latest technologies and
+                remains secure and functional.
               </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              What services do you offer as a web developer?
+            </summary>
+            <div className="px-4 pb-4 space-y-2">
               <p>
-                Sed consectetur quod tenetur! Voluptatibus culpa incidunt
-                veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus
-                autem eaque unde possimus quae.
+                We provide a range of web development services, including but
+                not limited to website design, development, maintenance, and
+                optimization.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              How long does it take to build a website?
+            </summary>
+            <div className="px-4 pb-4 space-y-2">
+              <p>
+                The timeline for website development varies based on the
+                complexity and requirements of the project. We'll provide you
+                with a detailed estimate after assessing your needs.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              Do you only provide web development services, or do you offer
+              other services such as video editing and digital marketing?
+            </summary>
+            <div className="px-4 pb-4 space-y-2">
+              <p>
+                While my primary focus is on web development services, I also
+                have a talented team that provides a range of additional
+                services, including video editing and digital marketing.
+                Depending on the project requirements, we may also collaborate
+                with external experts for specialized tasks.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              How can I inquire about services beyond web development?
+            </summary>
+            <div className="px-4 pb-4 space-y-2">
+              <p>
+                If you're interested in services beyond web development, feel
+                free to reach out to us with your specific requirements. We'll
+                assess your needs and, if necessary, involve the relevant team
+                members or specialists to ensure your project's success.{" "}
               </p>
             </div>
           </details>

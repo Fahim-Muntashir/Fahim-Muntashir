@@ -3,41 +3,36 @@
 import { useState } from "react";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+  // State variables for each form field
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
-        body: JSON.stringify(formData),
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify({ fullName, email, message }),
       });
 
-      if (response.ok) {
-        console.log("Email sent successfully");
-        // You can add code to show a success message or reset the form here
-      } else {
-        console.error("Error sending email");
-        // Handle the error, e.g., show an error message to the user
-      }
+      const data = await response.json();
+
+      console.log(data.message); // This will log the response from the server
     } catch (error) {
-      console.error("Error sending email:", error);
-      // Handle the error, e.g., show an error message to the user
+      console.error("Error:", error);
     }
+
+    // Reset the form after submission if needed
+    setFullName("");
+    setEmail("");
+    setMessage("");
   };
+
   return (
     <section
       id="contact"
@@ -209,46 +204,48 @@ const Contact = () => {
               <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">
                 Contact form
               </h1>
-
-              <form onSubmit={handleSubmit} class="mt-4">
-                <div class="flex-1">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+              <form onSubmit={handleSubmit} className="mt-4">
+                <div className="flex-1">
+                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                     Full Name
                   </label>
                   <input
-                    onChange={handleChange}
+                    onChange={(e) => setFullName(e.target.value)}
                     type="text"
+                    value={fullName}
                     placeholder="John Doe"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                   />
                 </div>
 
-                <div class="flex-1 mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                <div className="flex-1 mt-6">
+                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                     Email address
                   </label>
                   <input
+                    onChange={(e) => setEmail(e.target.value)}
                     type="email"
-                    onChange={handleChange}
+                    value={email}
                     placeholder="johndoe@example.com"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                   />
                 </div>
 
-                <div class="w-full mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                <div className="w-full mt-6">
+                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                     Message
                   </label>
                   <textarea
-                    onChange={handleChange}
-                    class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
+                    className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                     placeholder="Message"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                  className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                 >
                   get in touch
                 </button>
